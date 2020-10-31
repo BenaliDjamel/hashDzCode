@@ -1,0 +1,15 @@
+{
+  "name": "hashdzcode",
+  "version": "1.0.0",
+  "description": "hashcodedz",
+  "main": "main.hs",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "author": "benali djamel",
+  "license": "ISC"
+}
