@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         'gray-light-form': '#BEBEBE',
         'blue-base' : '#7174E2',
-        'body-color': '#F3F3F3'
+        'body-color': '#F3F3F3',
+        'grey-base': '#D8DADF'
       }
     },
   },
