@@ -11,7 +11,8 @@
 
 </head>
 
-<body class="bg-body-color">
+<body class="bg-body-color" >
+
 
   <!--start navbar-->
   <nav class="bg-white">
@@ -139,28 +140,28 @@
 
   <!--start content section-->
   <section class="mt-10">
-    <div class="container px-4 mx-auto">
+    <div class=" px-6 mx-auto">
       <div class="mb-4">
 
-        <div class="grid grid-cols-3  lg:grid-cols-4 gap-4 justify-items-stretch">
+        <div class="grid grid-cols-3  lg:grid-cols-4 gap-2 lg:gap-4 justify-items-stretch">
 
           <div class="hidden md:block md:col-span-1 ">
 
-            <div class="shadow bg-white rounded px-4 py-4 h-auto mb-4">
+            <div class="shadow bg-gray-100 rounded px-4 py-4 h-auto mb-4">
               <div class="mb-3 flex justify-between">
-                <h1 class="text-gray-600 font-normal cursor-pointer">Reading list </h1>
-                <h1 class="text-gray-600 font-normal bg-gray-200 px-1 py-0 rounded">13 </h1>
+                <h1 class="text-gray-700 font-normal cursor-pointer">Reading list </h1>
+                <h1 class="text-gray-700 font-normal bg-gray-200 px-1 py-0 rounded">13 </h1>
               </div>
               <div class="mb-3">
-                <h1 class="text-gray-600 font-normal cursor-pointer">Tags </h1>
-              </div>
-
-              <div class="mb-3">
-                <h1 class="text-gray-600 font-normal cursor-pointer">Podcasts </h1>
+                <h1 class="text-gray-700 font-normal cursor-pointer">Tags </h1>
               </div>
 
               <div class="mb-3">
-                <h1 class="text-gray-600 font-normal cursor-pointer">About </h1>
+                <h1 class="text-gray-700 font-normal cursor-pointer">Podcasts </h1>
+              </div>
+
+              <div class="mb-3">
+                <h1 class="text-gray-700 font-normal cursor-pointer">About </h1>
               </div>
 
               <div class="mt-6">
@@ -183,9 +184,9 @@
 
             </div>
 
-            <div class="shadow bg-white rounded px-4 py-4 h-auto mb-4">
+            <div class="shadow bg-gray-100 rounded px-4 py-4 h-auto mb-4">
               <div class="flex justify-between items-start">
-                <h1 class="font-semibold text-lg text-gray-800 mb-6">My Tags</h1>
+                <h1 class="font-semibold text-lg text-gray-900 mb-6">My Tags</h1>
                 <div class="bg-gray-200 px-2 py-1 rounded cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
                     width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2b2b2b" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -204,32 +205,20 @@
                 <a href="" class="block font-normal text-sm text-gray-700 mb-3">#golang</a>
               </div>
             </div>
-
           </div>
 
           <div class="col-span-3 md:col-span-2">
-            <!--  <div class="shadow hidden md:block bg-white rounded  lg:px-20  mb-6">
-              <div class="flex flex-row justify-between">
-                <div class="text-gray-700 text-xs md:text-sm font-medium cursor-pointer  md:px-4 py-2 m-2">Profile</div>
-                <div class="text-gray-700 text-xs md:text-sm font-medium cursor-pointer md:px-4 py-2 m-2">Followers
-                </div>
-                <div class="text-gray-700 text-xs md:text-sm font-medium cursor-pointer md:px-4 py-2 m-2">Following
-                </div>
-                <div class="text-gray-700 text-xs md:text-sm font-medium cursor-pointer md:px-4 py-2 m-2">Filter</div>
-              </div>
-            </div> -->
-
             <div class="shadow rounded hidden md:block bg-white md:border-b  mb-6">
               <div class="container mx-auto px-4">
-                <div class="md:flex">
+                <div class="md:flex md:justify-around">
                   <div class="flex -mb-px mr-3 lg:mr-8">
                     <a href="#"
                       class="no-underline text-gray-700  md:text-blue-base flex items-center py-4 border-b border-blue-base">
                       <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24" fill="none" stroke="#7174E2" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
                       </svg>Feed
                     </a>
                   </div>
@@ -239,10 +228,8 @@
                       <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24" fill="none" stroke="#454545" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="9" cy="7" r="4"></circle>
-                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
                       </svg>
                       Recent
                     </a>
@@ -250,22 +237,9 @@
                   <div class="flex -mb-px mr-4 lg:mr-8">
                     <a href="#"
                       class="no-underline text-gray-700  opacity-50 md:text-grey-dark md:opacity-100 flex items-center py-4 border-b border-transparent hover:opacity-100 md:hover:border-grey-dark">
-                      <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="#454545" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="8.5" cy="7" r="4"></circle>
-                        <polyline points="17 11 19 13 23 9"></polyline>
+                      <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#454545">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg> Best
-                    </a>
-                  </div>
-                  <div class="flex -mb-px mr-4 lg:mr-8">
-                    <a href="#"
-                      class="no-underline text-gray-700  opacity-50 md:text-grey-dark md:opacity-100 flex items-center py-4 border-b border-transparent hover:opacity-100 md:hover:border-grey-dark">
-                      Filter<svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="#454545" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M6 9l6 6 6-6" /></svg>
                     </a>
                   </div>
 
@@ -483,6 +457,53 @@
 
 
           </div>
+
+          <div class="hidden md:block md:col-span-1 ">
+
+            <div class="shadow bg-gray-100 rounded  py-4 h-auto mb-4">
+             <div class="divide-y divide-gray-300">
+              <div class="px-4">
+                <div class="mb-4 ">
+                  <h1 class="text-gray-900 font-semibold text-xl cursor-pointer">#news </h1>
+                </div>          
+              </div>
+              <div class="px-4 py-4 mb-3">
+                <h1 class="text-gray-900  cursor-pointer">What's the best alternative to indexOf() d dqdfqs for checking existence of element in an array erfs ze zer zaerazr az ? </h1>
+                <div class="text-xs text-gray-700 mt-2">12 comments</div>
+              </div>
+              <div class="px-4 py-4 mb-3">
+                <h1 class="text-gray-900  cursor-pointer">What's the best alternative to indexOf() d  ? </h1>
+                <div class="text-xs text-gray-700 mt-2">2 comments</div>
+              </div>
+             </div>
+
+            </div>
+
+            <div class="shadow bg-gray-100 rounded  py-4 h-auto mb-4">
+              <div class="divide-y divide-gray-300">
+               <div class="px-4">
+                 <div class="mb-4 ">
+                   <h1 class="text-gray-900 font-semibold text-xl cursor-pointer">#help </h1>
+                 </div>          
+               </div>
+               <div class="px-4 py-4 mb-3">
+                 <h1 class="text-gray-900  cursor-pointer">What's the best alternative to indexOf() d dqdfqs for checking existence of element in an array erfs ze zer zaerazr az ? </h1>
+                 <div class="text-xs text-gray-700 mt-2">12 comments</div>
+               </div>
+               <div class="px-4 py-4 mb-3">
+                 <h1 class="text-gray-900  cursor-pointer">What's the best alternative to indexOf() d  ? </h1>
+                 <div class="text-xs text-gray-700 mt-2">2 comments</div>
+               </div>
+              </div>
+ 
+             </div>
+
+           
+
+          </div>
+
+          
+         
 
         </div>
 
