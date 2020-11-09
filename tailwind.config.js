@@ -11,6 +11,9 @@ module.exports = {
         'blue-base' : '#7174E2',
         'body-color': '#F3F3F3',
         'grey-base': '#D8DADF'
+      },
+      fontSize: {
+        '7xl': '8rem',
       }
     },
   },
