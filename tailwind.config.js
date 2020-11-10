@@ -14,7 +14,12 @@ module.exports = {
       },
       fontSize: {
         '7xl': '8rem',
-      }
+      },
+      height: theme => ({
+        "70": "18.5rem",
+        "100":"30rem"
+        
+      }),
     },
   },
   variants: {},
